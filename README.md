@@ -1,17 +1,13 @@
-
-
-## Default Animate use start
 ## Call for CSS
 animate.css
 
-## How to use for js. EXAMPLE
+## How to use for js. EXAMPLE Default Animate use
 ```
 $(".single-portfolio-item").hover(function(){
-         	$(".portfolio-inner h2").removeClass("animated slideInUp");
-         	$(this).find(".portfolio-inner h2").addClass("animated slideInUp");
+  $(".portfolio-inner h2").removeClass("animated slideInUp");
+  $(this).find(".portfolio-inner h2").addClass("animated slideInUp");
  });
  ```
- ## Default Animate use End
  ## Homepage owlCarousel use for animate.
  
 ```
